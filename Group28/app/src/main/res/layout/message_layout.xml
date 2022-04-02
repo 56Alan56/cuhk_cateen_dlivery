@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+
+    <LinearLayout
+        android:id="@+id/receive_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/liaotiankuang_left"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="4dp">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:maxLines="3"
+            android:text="Title"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/messageContent"
+            android:layout_width="204dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:maxLines="10"
+            android:text="Content"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/send_time"
+            android:layout_width="323dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:maxLines="10"
+            android:text="Content"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/send_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/liaotiankuang_right"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="4dp">
+
+        <TextView
+            android:id="@+id/user_name_right"
+            android:layout_width="403dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:maxLines="3"
+            android:text="Title"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/messageContent_right"
+            android:layout_width="403dp"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:maxLines="3"
+            android:text="Content"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/send_time_right"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:maxLines="3"
+            android:text="Content"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
