@@ -10,7 +10,7 @@ from email.header import Header
 import random
 
 
-api_key = "AAAAyaepncg:APA91bGG28LSD3lUiUnr4_WxjZEm85N7BV7JXOutd0gYJZeLA741KUKnJczUh2OKiSsm6y2MO_m5ApplDAhfwtBqj_tAumMtux8btlxUJ7vM3Eyvd6sdUKo7bPxL0vx5T0FoJmif_Ce5"
+
 push_service = FCMNotification(api_key = api_key)
 
 
